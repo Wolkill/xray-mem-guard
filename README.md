@@ -31,7 +31,7 @@
 ## Установка
 
 ```bash
-git clone https://github.com/<your-github>/xray-mem-guard.git
+git clone https://github.com/Wolkill/xray-mem-guard.git
 cd xray-mem-guard
 sudo bash install.sh
 ```

@@ -1,6 +1,6 @@
 [Unit]
 Description=Restart the Xray core when memory usage is high (3X-UI mem guard)
-Documentation=https://github.com/<your-github>/xray-mem-guard
+Documentation=https://github.com/Wolkill/xray-mem-guard
 After=x-ui.service
 
 [Service]

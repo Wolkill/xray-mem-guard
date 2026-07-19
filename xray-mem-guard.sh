@@ -10,7 +10,7 @@
 # Meant to be run once a minute from a systemd timer (see systemd/).
 # Logs everything to $LOG.
 #
-# Repo: https://github.com/<your-github>/xray-mem-guard
+# Repo: https://github.com/Wolkill/xray-mem-guard
 
 set -euo pipefail
 
