@@ -1,0 +1,18 @@
+# /etc/xray-mem-guard.conf — configuration for xray-mem-guard
+#
+# This file is sourced by the guard script, so use plain shell syntax.
+# The installer puts it in place with mode 0644 (root-owned).
+
+# Restart when used memory reaches this percentage.
+# "Used" here means real usage: (MemTotal - MemAvailable) / MemTotal.
+THRESHOLD=80
+
+# Minimum number of seconds between two restarts (anti-flap / anti-storm).
+COOLDOWN=600
+
+# Command used to restart the Xray core.
+# Default restarts the whole 3X-UI service, which restarts the core with it.
+RESTART_CMD="systemctl restart x-ui"
+
+# Where the guard writes its log.
+LOG="/var/log/xray-mem-guard.log"

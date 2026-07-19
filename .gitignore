@@ -1,0 +1,4 @@
+# Local/runtime artifacts — never commit these
+*.log
+known_hosts
+askpass.sh
